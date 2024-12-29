@@ -63,7 +63,7 @@ This repository contains a feature-rich, browser-based paint application impleme
 
 ### 1. Clone the Repository
 ```bash
-https://github.com/yourusername/paint-application.git
+https://github.com/adityaroshanpatro/online-paint-website.git
 cd paint-application
 ```
 
