@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Paint App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Toolbar -->
+    <div class="toolbar">
+        <!-- Drawing Tools -->
+        <button id="pencil-tool" class="tool active" title="Pencil">✏️</button>
+        <button id="eraser-tool" class="tool" title="Eraser">🧽</button>
+        <input type="color" id="color-picker" title="Select Color">
+        <input type="range" id="brush-size" min="1" max="50" value="5" title="Brush Size">
+        <button id="clear-canvas" title="Clear Canvas">🗑️</button>
+        <button id="save-drawing" title="Save Drawing">💾</button>
+
+        <!-- Shape and Text Tools -->
+        <button id="rect-tool" class="tool" title="Rectangle">🟦</button>
+        <button id="circle-tool" class="tool" title="Circle">⚪</button>
+        <button id="line-tool" class="tool" title="Line">➖</button>
+        <button id="text-tool" class="tool" title="Text">🅰️</button>
+
+        <!-- Undo/Redo -->
+        <button id="undo" title="Undo">↩️</button>
+        <button id="redo" title="Redo">↪️</button>
+    </div>
+
+    <!-- Canvas Area -->
+    <canvas id="paint-canvas"></canvas>
+
+    <script src="script.js"></script>
+</body>
+</html>
