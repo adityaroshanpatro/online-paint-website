@@ -2,6 +2,8 @@
 
 This repository contains a feature-rich, browser-based paint application implemented in HTML, CSS, and JavaScript. It replicates functionalities similar to classic paint software and provides an intuitive interface for creative users.
 
+**[Link to Website](https://adityaroshanpatro.github.io/online-paint-website/)**
+
 ---
 
 ## Features
