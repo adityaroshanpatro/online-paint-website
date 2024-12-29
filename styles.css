@@ -31,11 +31,15 @@ body, html {
 
 .tool.active {
     border-color: #007bff;
-    background: #e0f7ff;
+    background-color: #e0f7ff;
 }
 
-input[type="color"], input[type="range"] {
+input[type="range"], select {
+    margin: 0 5px;
     cursor: pointer;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
 }
 
 /* Canvas Styling */
