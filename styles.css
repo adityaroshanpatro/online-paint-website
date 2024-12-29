@@ -49,3 +49,22 @@ input[type="range"], select {
     background: #ffffff;
     cursor: crosshair;
 }
+
+
+#canvas-wrapper {
+    border: 1px solid #ccc;
+    display: inline-block;
+    position: relative;
+}
+
+
+
+#resize-handle {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 20px;
+    height: 20px;
+    cursor: se-resize;
+    background: rgba(0, 0, 0, 0.3);
+}
